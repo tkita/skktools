@@ -83,6 +83,14 @@ skkdic-count が作成されます。
    $ skkdic-expr jisyo-a - jisyo-tmp > jisyo-common
    ```
 
+## 注意点
+
+  * annotation には対応しておりませんので、annotation 付きと annotation なしの同じ候補、
+    あるいは annotation の内容が異なる同じ候補を、異なる候補として認識します。
+
+  * skkdic-expr はでたらめな順番で出力するので、
+    処理後に更に skk-sort コマンドにソートさせないと SKK 辞書として利用できません。
+
 ## 2.2. skkdic-sort
 
 skkdic-expr はでたらめな順番で出力します。それを通常の SKK 辞書の形式に

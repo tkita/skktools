@@ -12,7 +12,7 @@ C で書かれたツール。READMEs ディレクトリに収めてある README
 * `skkdic-count` 辞書の中の候補数を数える
 * `skkdic-diff` ふたつの辞書の差分を真鵺道形式で出力
 * `skkdic-expr` 複数の辞書のマージなど
-* `skkdic-expr2` skkdic-expr の高速版
+* `skkdic-expr2` skkdic-expr の改良版
 * `skkdic-sort` 辞書のソート
 * `skk2cdb.py` SKK 形式から cdb 形式への変換
 * `saihenkan.rb` バージョン 2.1.0 以降の ruby が必要
